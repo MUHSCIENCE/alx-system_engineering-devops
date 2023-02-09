@@ -1,10 +1,2 @@
 #!/bin/bash
-for file in *.html; do
-
-  if [ ! -f "../" ] || [ "" -nt "../" ]; then
-
-    cp "" "../"
-
-  fi
-
-done
+cp -un*.html ../
