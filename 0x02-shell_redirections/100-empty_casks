@@ -1,0 +1,2 @@
+#!/bin/bash
+find . -type f -empty -printf '%f\n' -or -type d -empty -printf '%f\n'
